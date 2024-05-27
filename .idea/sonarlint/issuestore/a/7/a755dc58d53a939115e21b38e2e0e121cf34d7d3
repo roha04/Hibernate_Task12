@@ -1,0 +1,11 @@
+
+Y
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(†³€Á8âÓÛ¹í1
+\
+java:S1128":Remove this unused import 'jakarta.validation.Constraint'.(¸ÎÃàûÿÿÿÿ8èÓÛ¹í1
+J
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8éÓÛ¹í1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8êÓÛ¹í1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8êÓÛ¹í1

@@ -1,0 +1,57 @@
+2024-05-27 16:32:28 INFO  HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-05-27 16:32:28 INFO  HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.driver_class=org.postgresql.Driver, hibernate.connection.password=****, hibernate.connection.username=postgres, hibernate.connection.url=jdbc:postgresql://localhost:5433/space, hibernate.connection.pool_size=10, hibernate.connection.autocommit=true, hibernate.show_sql=true}
+2024-05-27 16:32:28 INFO  HHH000026: Second-level cache disabled
+2024-05-27 16:32:28 WARN  HHH10001002: Using built-in connection pool (not intended for production use)
+2024-05-27 16:32:28 INFO  HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2024-05-27 16:32:28 INFO  HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5433/space]
+2024-05-27 16:32:28 INFO  HHH10001001: Connection properties: {password=****, autocommit=true, user=postgres}
+2024-05-27 16:32:28 INFO  HHH10001003: Autocommit mode: true
+2024-05-27 16:32:28 INFO  HHH10001115: Connection pool size: 10 (min=1)
+2024-05-27 16:32:29 INFO  HV000001: Hibernate Validator 8.0.1.Final
+2024-05-27 16:32:30 INFO  HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27 16:32:30 INFO  Flyway Community Edition 9.22.3 by Redgate
+2024-05-27 16:32:30 INFO  See release notes here: https://rd.gt/416ObMi
+2024-05-27 16:32:30 INFO  
+2024-05-27 16:32:30 INFO  Database: jdbc:postgresql://localhost:5433/space (PostgreSQL 15.4)
+2024-05-27 16:32:30 INFO  Successfully validated 2 migrations (execution time 00:00.021s)
+2024-05-27 16:32:30 INFO  Current version of schema "public": 2
+2024-05-27 16:32:30 INFO  Schema "public" is up to date. No migration necessary.
+2024-05-27 16:32:30 INFO  ticket id:1, created:'2016-08-02T14:01:01' client {id:1, name:'Theodore Roosevelt'} planet from id:MERC234, name:'MERCURY' planet to id:ERZ99, name:'EARTH'
+2024-05-27 16:32:30 INFO  id:4, created:'2019-03-02T12:23:51'
+2024-05-27 16:32:30 INFO  id:14, created:'2024-01-03T11:16:11'
+2024-05-27 16:32:30 INFO  Ticket number '17' successfully was inserted
+2024-05-27 16:32:30 INFO  Ticket number '17' successfully was deleted
+2024-05-27 16:32:30 ERROR Client.name client {id:null, name:'PE'} must be between 3 and 200 characters
+2024-05-27 16:32:30 INFO  client name like 'Bush' ==> client {id:8, name:'George Bush'}
+2024-05-27 16:32:30 INFO  client name like 'Bush' ==> client {id:10, name:'George W. Bush'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:1, name:'Theodore Roosevelt'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:2, name:'Franklin D. Roosevelt'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:3, name:'Harry S. Truman'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:4, name:'John F. Kennedy'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:5, name:'Richard M. Nixon'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:6, name:'Jimmy Carter'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:7, name:'Ronald Reagan'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:8, name:'George Bush'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:9, name:'Bill Clinton'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:10, name:'George W. Bush'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:11, name:'Barack Obama'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:12, name:'Donald J. Trump'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:13, name:'Joseph R. Biden'}
+2024-05-27 16:32:30 INFO  client list ==> client {id:15, name:'Pablo Escobar'}
+2024-05-27 16:32:30 INFO  Client by name Pablo Escobar successfully was deleted
+2024-05-27 16:32:30 ERROR Planet.id id:del111, name:'18 Delphini b' can be only in upper case and digital characters.
+2024-05-27 16:32:30 INFO  Planet by name '18 Delphini b' successfully was inserted
+2024-05-27 16:32:30 INFO  Planet by name '18 Delphini b' successfully was updated
+2024-05-27 16:32:30 INFO  Planet by name 'new Delphini js' successfully was updated
+2024-05-27 16:32:30 INFO  planet list ==> id:MERC234, name:'MERCURY'
+2024-05-27 16:32:30 INFO  planet list ==> id:JUP221, name:'JUPITER'
+2024-05-27 16:32:30 INFO  planet list ==> id:MRS777, name:'MARS'
+2024-05-27 16:32:30 INFO  planet list ==> id:SAT064, name:'SATURN'
+2024-05-27 16:32:30 INFO  planet list ==> id:UR321, name:'URANUS'
+2024-05-27 16:32:30 INFO  planet list ==> id:NEP704, name:'NEPTUNE'
+2024-05-27 16:32:30 INFO  planet list ==> id:VEN66, name:'VENUS'
+2024-05-27 16:32:30 INFO  planet list ==> id:ERZ99, name:'EARTH'
+2024-05-27 16:32:30 INFO  planet list ==> id:DEL111, name:'18 Delphini b'
+2024-05-27 16:32:30 INFO  planet list ==> id:DEL112, name:'new Delphini js'
+2024-05-27 16:32:30 INFO  Planet by name '18 Delphini b' successfully was deleted
+2024-05-27 16:32:30 INFO  Planet by name 'new Delphini js' successfully was deleted
